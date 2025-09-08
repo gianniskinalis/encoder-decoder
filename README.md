@@ -45,20 +45,24 @@ A simple, educational **Python command-line tool** to encode and decode text usi
 
 ---
 
-## Usage
+## Example Usage
 
 ```bash
 # Base64 encode
 encoder --mode base64 --encode "hello world"
+# Output: aGVsbG8gd29ybGQ
 
 # Base64 decode
 encoder --mode base64 --decode "aGVsbG8gd29ybGQ="
+# Output: hello world
 
 # Caesar cipher encode with shift 5
 encoder --mode caesar --encode "attack at dawn" --shift 5
+# Output: fyyfhp fy ifbs
 
 # Caesar cipher decode with shift 5
 encoder --mode caesar --decode "fyyfhp fy ifbs" --shift 5
+# Output: attack at dawn
 ```
 
 ## Help Menu
