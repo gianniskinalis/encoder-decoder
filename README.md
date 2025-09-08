@@ -12,7 +12,7 @@ A simple, educational **Python command-line tool** to encode and decode text usi
 - **Caesar Cipher** with customizable shift
 - **URL Encoding/Decoding**
 - **XOR Cipher** with customizale key
-- **CLI support** via `argparse`mfor interacive or scripted use
+- **CLI support** via `argparse` for interacive or scripted use
 
 ---
 
