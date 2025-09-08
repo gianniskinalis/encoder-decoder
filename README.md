@@ -6,7 +6,7 @@ A simple, educational **Python command-line tool** to encode and decode text usi
 
 ## Features
 
-- **Bae64** encoding and decoding
+- **Base64** encoding and decoding
 - **Hexadecimal** encoding and decoding
 - **ROT13** (symmetric ancoding)
 - **Caesar Cipher** with customizable shift
