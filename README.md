@@ -43,6 +43,8 @@ A simple, educational **Python command-line tool** to encode and decode text usi
    ```bash
    encoder --mode base64 --encode "hello world"
 
+---
+
 ## Usage
 
 ```bash
