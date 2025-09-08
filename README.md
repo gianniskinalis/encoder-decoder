@@ -8,7 +8,7 @@ A simple, educational **Python command-line tool** to encode and decode text usi
 
 - **Base64** encoding and decoding
 - **Hexadecimal** encoding and decoding
-- **ROT13** (symmetric ancoding)
+- **ROT13** (symmetric encoding)
 - **Caesar Cipher** with customizable shift
 - **URL Encoding/Decoding**
 - **XOR Cipher** with customizale key
