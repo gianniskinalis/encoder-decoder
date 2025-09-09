@@ -108,7 +108,7 @@ def main():
             if args.encode:
                 print(caesar_cipher(args.encode, args.shift))
             elif args.decode:
-                print(caesar_cipher(args.encode, args.shift, decode=True))
+                print(caesar_cipher(args.decode, args.shift, decode=True))
         elif args.mode == "url":
             if args.encode:
                 print(url_encode(args.encode))
