@@ -93,17 +93,17 @@ def main():
             if args.encode:
                 print(base64_encode(args.encode))
             elif args.decode:
-                print(base64_decode(args.encode))
+                print(base64_decode(args.decode))
         elif args.mode == "hex":
             if args.encode:
                 print(hex_encode(args.encode))
             elif args.decode:
-                print(hex_decode(args.encode))
+                print(hex_decode(args.decode))
         elif args.mode == "rot13":
             if args.encode:
                 print(rot13(args.encode))
             elif args.decode:
-                print(rot13(args.encode))
+                print(rot13(args.decode))
         elif args.mode == "caesar":
             if args.encode:
                 print(caesar_cipher(args.encode, args.shift))
@@ -113,12 +113,12 @@ def main():
             if args.encode:
                 print(url_encode(args.encode))
             elif args.decode:
-                print(url_decode(args.encode))
+                print(url_decode(args.decode))
         elif args.mode == "xor":
             if args.encode:
                 print(xor_cipher(args.encode, args.key))
             elif args.decode:
-                print(xor_cipher(args.encode, args.key))
+                print(xor_cipher(args.decode, args.key))
     except ValueError as e:
         print("Error:", e)
         sys.exit(1)
